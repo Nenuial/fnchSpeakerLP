@@ -1,0 +1,58 @@
+/* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap');
+
+* {
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.rt-text-content {
+  width: 100%;
+}
+
+.start-table {
+  margin-top: 16px;
+  border: 1px solid hsl(213, 33%, 93%);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: hsl(213, 45%, 97%);
+  border-bottom-color: hsl(213, 33%, 93%);
+  border-bottom-width: 1px;
+  color: hsl(213, 13%, 33%);
+}
+
+.header[aria-sort]:hover {
+  color: hsl(213, 55%, 50%);
+}
+
+.result-detail {
+  padding: 5px;
+  box-shadow: inset 0 1px 3px #dbdbdb;
+  background: hsl(213, 20%, 99%);
+}
+
+.result-detail h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.result-detail h3:first-child {
+  margin-top: 0px;
+}
+
+.result-table {
+  border: 1px solid hsl(213, 33%, 93%);
+  border-radius: 2px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+}
+
+.navbar-brand {
+  padding-top: 0px !important;
+}
+
