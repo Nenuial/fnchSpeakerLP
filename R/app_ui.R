@@ -19,7 +19,7 @@ app_ui <- function(request) {
         status = "white",
         border = TRUE,
         skin = "light",
-        "SpeakerApp"
+        "SpeakerApp LP"
       ),
 
       title = "SpeakerApp LP",
